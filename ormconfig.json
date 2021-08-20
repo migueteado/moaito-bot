@@ -1,0 +1,17 @@
+[{
+  "name": "production",
+  "type": "postgres",
+  "host": "151.106.108.8",
+  "port": 5432,
+  "username": "superuser",
+  "password": "Noviembre2018",
+  "database": "moaitodb"
+}, {
+  "name": "development",
+  "type": "postgres",
+  "host": "151.106.108.8",
+  "port": 5432,
+  "username": "superuser",
+  "password": "Noviembre2018",
+  "database": "moaitodb-dev"
+}]

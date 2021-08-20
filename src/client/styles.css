@@ -1,0 +1,46 @@
+.main-title {
+  background: rgb(16, 185, 129);
+  background: linear-gradient(
+    326deg,
+    rgba(16, 185, 129, 1) 6%,
+    rgba(6, 95, 70, 1) 96%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* width */
+#__next ::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+#__next ::-webkit-scrollbar-track {
+  background: rgb(17, 24, 39);
+}
+
+/* Handle */
+#__next ::-webkit-scrollbar-thumb {
+  border: 1px solid rgb(17, 24, 39);
+  width: 3px;
+  background-clip: padding-box;
+  border-radius: 9999px;
+  background: rgba(31, 41, 55);
+}
+
+/* Handle on hover */
+#__next ::-webkit-scrollbar-thumb:hover {
+  background: rgba(55, 65, 81);
+}
+
+#nprogress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+#nprogress .bar {
+  height: 2px;
+}
